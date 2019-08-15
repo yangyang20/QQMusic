@@ -1,6 +1,6 @@
 
 大批量歌手信息,用以获得此歌手的singer_mid参数
-(cur_page参数代表翻页,index参数代表A~Z,callback 代表不同地区的歌手 jsonpCallback = callback sin: cur_page*80-80 ,cur_page: 分页)
+(cur_page参数代表翻页,index参数代表A~Z,callback以及 area代表不同地区的歌手 jsonpCallback = callback sin: cur_page*80-80 ,cur_page: 分页)
 https://u.y.qq.com/cgi-bin/musicu.fcg?callback=getUCGI19272782514046893&g_tk=866772855&jsonpCallback=getUCGI19272782514046893&loginUin=393622951&hostUin=0&format=jsonp&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCode=0&data={"comm":{"ct":24,"cv":0},"singerList":{"module":"Music.SingerListServer","method":"get_singer_list","param":{"area":-100,"sex":-100,"genre":-100,"index":-100,"sin":80,"cur_page":1}}}
 
 
